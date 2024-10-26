@@ -1,0 +1,173 @@
+@font-face {
+  font-family: "IvyMode";
+  src: url("Font/IvyMode-Regular.ttf") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Monsterat";
+  src: url("Font/Montserrat-ExtraLight.ttf") format("woff2");
+  font-weight: lighter;
+  font-style: normal;
+}
+body {
+  background-color: #f7f2d0;
+}
+
+.rectangle1 {
+  top: 0;
+  left: 0%;
+  position: absolute;
+  width: 100%;
+  height: 860px;
+  background-color: #32505b;
+}
+
+.title {
+  margin-top: 2%;
+  margin-left: 6%;
+  width: 10%;
+}
+
+.tower {
+  position: absolute;
+  top: 14%;
+  right: 10%;
+  width: 28%;
+}
+
+.headerParadise {
+  font-family: "IvyMode";
+  font-size: 500%;
+  font-weight: 50;
+  color: transparent;
+  -webkit-text-stroke: 0.5px #fce6a4;
+  margin-left: 5.7%;
+  padding-bottom: 0%;
+  margin-bottom: 0px;
+}
+
+.headerReimagined {
+  font-family: "IvyMode";
+  font-size: 500%;
+  font-weight: 50;
+  color: #fce6a4;
+  margin-top: 0px;
+  padding-top: 0%;
+  margin-left: 5.7%;
+}
+
+.paragraph {
+  width: 25%;
+  font-family: "Monsterat";
+  color: #fffbe3;
+  font-size: 120%;
+  line-height: 180%;
+  margin-left: 5.7%;
+}
+
+.enquire {
+  background-color: transparent;
+  color: #fffbe3;
+  width: 250px;
+  height: 7%;
+  border: solid 1px #fffbe3;
+  font-weight: bold;
+  margin-left: 5.7%;
+}
+
+.enquire:hover {
+  cursor: pointer;
+}
+
+.mask1 {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
+
+.mask2 {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+}
+
+.menu {
+  position: absolute;
+  right: 6.7%;
+  top: 5%;
+}
+
+.top-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.top-menu li {
+  margin-right: 50px;
+  float: left;
+  text-decoration: none;
+}
+
+.top-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  padding-bottom: 25px;
+  display: block;
+  font-family: "Monsterat";
+  color: #f7f2d0;
+}
+
+.top-menu li :hover {
+  font-weight: bolder;
+  border-bottom: solid 1px white;
+  color: white;
+}
+
+#selected {
+  font-weight: bolder;
+  border-bottom: solid 1px #f7f2d0;
+}
+
+.verticalText {
+  position: absolute;
+  right: 5%;
+  top: 20.5%;
+  font-weight: bold;
+  font-family: "Monsterat";
+  color: #f7f2d0;
+}
+
+.verticalLine {
+  position: absolute;
+  right: 5%;
+  top: 63%;
+  margin-right: 11px;
+  border: none;
+  border-left: 1px solid #f7f2d0;
+  height: 100px;
+}
+
+.instagram {
+  position: absolute;
+  width: 1%;
+  right: 5%;
+  top: 78%;
+}
+
+.twitter {
+  position: absolute;
+  width: 1%;
+  right: 5%;
+  top: 83.2%;
+}
+
+.facebook {
+  position: absolute;
+  width: 0.5%;
+  right: 5.3%;
+  top: 88%;
+}/*# sourceMappingURL=Style.css.map */
